@@ -1,17 +1,32 @@
 .card-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #95dada;
-  border: 1px solid grey;
-  border-radius: 5px;
-  padding: 25px;
+  border: 3px solid #64BAE8;
+  border-radius: 8px;
+  padding: 5px;
   cursor: pointer;
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+
+  width: 100px;
+  /* height: 200px; */
+  margin: 10px;
+  word-break: break-all;
+  word-break: break-word;
 }
 
 .card-container:hover {
   transform: scale(1.05);
+}
+
+.monster-name {
+  font-size: 14px;
+}
+
+.monster-email {
+  font-size: 12px;
 }

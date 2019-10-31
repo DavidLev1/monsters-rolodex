@@ -56,7 +56,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <h1> Monsters Rolodex</h1>
+        <p className='app-header'> Monsters Rolodex </p>
 
         {/* <SearchBox  onSearchChange={this.onSearchChange}/> */}
 
