@@ -20,7 +20,9 @@
 }
 
 .card-container:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
+  background-color: #90D1A0;
+  border: 3px solid #E87F5A;
 }
 
 .monster-name {
@@ -29,4 +31,10 @@
 
 .monster-email {
   font-size: 12px;
+}
+
+
+.monster-image {
+  width: 100px;
+  height: 100px;
 }
